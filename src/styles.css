@@ -1,0 +1,20 @@
+body {
+  font-family: sans-serif;
+}
+
+.toolbox {
+  background-color: steelblue;
+  display: flex;
+  border: 1px solid slateblue;
+  width: 405px;
+  align-items: center;
+  justify-content: center;
+}
+
+.toolbox > *:last-child {
+  margin-left: auto;
+}
+
+#canvas {
+  cursor: grabbing;
+}
